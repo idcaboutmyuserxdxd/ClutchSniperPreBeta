@@ -1,0 +1,39 @@
+{
+    "global_max_price": 0,
+    "auto_search": {
+        "autosearch": false,
+        "auto_search_key": "",
+        "notifiy_others": true
+    },
+    "threads": {
+        "searcherv2_threads": 1,
+        "buy_threads": 4
+    },
+    "webhook": {
+        "enabled": false,
+        "url": ""
+    },
+    "proxies": {
+        "enabled": false,
+        "proxy_file": "proxies.txt",
+        "timeout_seconds": 0.5,
+        "proxy_type": "http",
+        "proxy_check_url": "https://google.com",
+        "status_code_on_success": 200
+    },
+    "antiratelimit": {
+        "v1_wait_time": 1,
+        "v2_wait_time": 0,
+        "v2_auto_wait_time": true
+    },
+    "api": {
+        "enabled": false,
+        "key": "abcdkey",
+        "port": 8000
+    },
+    "cookies": {
+        "search_cookie": "",
+        "buy_cookie": ["]
+    },
+    "items": ["14180828387"]
+}
